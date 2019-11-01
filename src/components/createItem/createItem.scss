@@ -1,0 +1,33 @@
+.create__form {
+    display: flex;
+}
+
+.create__input {
+    width: 75%;
+    padding: 10px;
+
+    font-size: 20px;
+    border: 1px solid rgb(179, 176, 176);
+    border-radius: 8px;
+    outline: none;
+    
+
+}
+
+.create__btn {
+    margin-left: 5px;
+    width: 25%;
+
+    font-size: 20px;
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 8px;
+    outline: none;
+
+    &:hover {
+        background-color: rgb(13, 118, 160);
+        color: #f3f3f3;
+    }
+
+}
+
